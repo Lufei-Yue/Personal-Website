@@ -1,75 +1,82 @@
 ---
-title: Example Talk
-
-event: Hugo Blox Builder Conference
-event_url: https://example.org
-
-location: Hugo Blox Builder HQ
-address:
-  street: 450 Serra Mall
-  city: Stanford
-  region: CA
-  postcode: '94305'
-  country: United States
-
-summary: An example talk using Hugo Blox Builder's Markdown slides feature.
-abstract: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam.'
-
-# Talk start and end times.
-#   End time can optionally be hidden by prefixing the line with `#`.
-date: '2030-06-01T13:00:00Z'
-date_end: '2030-06-01T15:00:00Z'
-all_day: false
-
-# Schedule page publish date (NOT talk date).
-publishDate: '2017-01-01T00:00:00Z'
-
+title: "High-Fidelity 3D Model Reconstruction using Air-Ground Fusion"
 authors:
-  - admin
+- admin
+date: "2021-05-17T00:00:00Z"
+doi: ""
 
-tags: []
+# Schedule page publish date (NOT publication's date).
+# publishDate: "2017-01-01T00:00:00Z"
 
-# Is this a featured talk? (true/false)
-featured: false
+# Publication type.
+# Accepts a single type but formatted as a YAML list (for Hugo requirements).
+# Enter a publication type from the CSL standard.
+# publication_types: ["article"]
 
-image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
-  focal_point: Right
+# # Publication name and optional abbreviated publication name.
+# publication: ""
+# publication_short: ""
 
-#links:
-#  - icon: twitter
-#    icon_pack: fab
-#    name: Follow
-#    url: https://twitter.com/georgecushen
-url_code: 'https://github.com'
-url_pdf: ''
-url_slides: 'https://slideshare.net'
-url_video: 'https://youtube.com'
+# abstract: Standard 3D models created from UAV (drone) imagery are excellent for capturing large areas quickly, but they often suffer from significant limitations at ground level. Textures on building facades can be blurry, and complex structures like covered walkways or overhangs are often distorted or incomplete. This project aimed to solve this common industry problem by developing a method to enhance model accuracy and detail.
 
-# Markdown Slides (optional).
-#   Associate this talk with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
-#   Otherwise, set `slides = ""`.
-slides: ""
+# Summary. An optional shortened abstract.
+summary: Standard 3D models created from UAV (drone) imagery are excellent for capturing large areas quickly, but they often suffer from significant limitations at ground level. Textures on building facades can be blurry, and complex structures like covered walkways or overhangs are often distorted or incomplete. This project aimed to solve this common industry problem by developing a method to enhance model accuracy and detail.
 
-# Projects (optional).
-#   Associate this post with one or more of your projects.
+tags:
+- Undergraduate Project
+- 3D models
+- UAV
+
+featured: true
+
+links:
+# - name: Custom Link
+#   url: http://example.org
+# url_pdf: http://arxiv.org/pdf/1512.04133v1
+# url_code: 'https://github.com/LufeiYue1/DID-LTN-London'
+# url_dataset: '#'
+# url_poster: '#'
+# url_project: ''
+# url_slides: ''
+# url_source: '#'
+# url_video: '#'
+
+# Featured image
+# To use, add an image named `featured.jpg/png` to your page's folder. 
+# image:
+#   caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/s9CC2SKySJM)'
+#   focal_point: ""
+#   preview_only: false
+
+# Associated Projects (optional).
+#   Associate this publication with one or more of your projects.
 #   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects:
-  - example
+#   E.g. `internal-project` references `content/project/internal-project/index.md`.
+#   Otherwise, set `projects: []`.
+# projects:
+# - internal-project
+
+# Slides (optional).
+#   Associate this publication with Markdown slides.
+#   Simply enter your slide deck's filename without extension.
+#   E.g. `slides: "example"` references `content/slides/example/index.md`.
+#   Otherwise, set `slides: ""`.
+# slides: example
 ---
+This project addressed a common challenge in 3D modeling where models generated solely from UAV (drone) data lack sufficient ground-level detail and texture clarity. My goal was to develop a cost-effective method to fuse aerial imagery with high-resolution, ground-based smartphone images to produce a single, high-fidelity 3D model of the Tianjin Normal University Library.
 
-{{% callout note %}}
-Click on the **Slides** button above to view the built-in slides feature.
-{{% /callout %}}
+My methodology centered on unifying the two disparate datasets within a single coordinate system. I first created a detailed local model from the smartphone images, then used common tie points to perform an absolute orientation and similarity transformation on the UAV dataset. This precisely aligned the large-scale aerial model with the detailed ground model. By merging the two aligned datasets in ContextCapture, I was able to generate a final, integrated model.
 
-Slides can be added in a few ways:
+The results were a significant success. The fused model exhibited crisp, clear textures and complete, accurate geometry for complex ground-level features like walkways and building entrances—details that were previously distorted or blurry. This project demonstrates a practical and scalable workflow for creating more realistic and accurate digital twins for urban planning and architectural visualization without relying on expensive, specialized equipment.
 
-- **Create** slides using Hugo Blox Builder's [_Slides_](https://docs.hugoblox.com/reference/content-types/) feature and link using `slides` parameter in the front matter of the talk file
-- **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
-- **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://docs.hugoblox.com/reference/markdown/).
+Drone modeling results:
+![UAV](UAV.png)
 
-Further event details, including [page elements](https://docs.hugoblox.com/reference/markdown/) such as image galleries, can be added to the body of this page.
+
+
+
+<!-- {{% callout note %}}
+Create your slides in Markdown - click the *Slides* button to check out the example.
+{{% /callout %}} -->
+
+<!-- Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/). -->

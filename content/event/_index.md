@@ -1,5 +1,5 @@
 ---
-title: Recent & Upcoming Talks
+title: Undergraduate Projects
 cms_exclude: true
 #url: talk
 
