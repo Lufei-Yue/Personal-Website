@@ -35,7 +35,7 @@ profiles:
   # - icon: brands/x
   #   url: https://twitter.com/GetResearchDev
   - icon: brands/github
-    url: https://github.com/LufeiYue1
+    url: https://github.com/Lufei-Yue
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/lufeiyue/
   - icon: brands/instagram
@@ -65,7 +65,7 @@ education:
     date_start: 2023-09-25
     date_end: 2024-09-24
     summary: |
-      Grade: Merit (68/100)
+      Grade: Merit
 
       Advanced skills in spatial data analysis and visualization (ArcGIS, QGIS, Python, R), and statistical tools (SPSS, Excel)
   # - area: MEng Artificial Intelligence
@@ -87,15 +87,22 @@ education:
   #     GPA: 3.4/4.0
       
   #     Courses included:
-  #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      # - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      # - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      # - lorem ipsum dolor sit amet, consectetur adipiscing elit
   - area: BSc Geoinformatics, 2021
     institution: Tianjin Normal University
     date_start: 2017-09-11
     date_end: 2021-06-11
     summary: |
-      GPA: 3.1/4.0
+      Scholarship recipient for four consecutive years
+
+      Core courses
+      - Principles and Applications of Database
+      - Principles of Geospatial Analysis
+      - Visualization Principle of Geospatial Data
+      - Applications of GIS
+      - GIS Designing and Development
 work:
   # - position: Director of Cloud Infrastructure
   #   company_name: GenCoin
@@ -181,18 +188,30 @@ skills:
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking
+      - name: Hiking 🚶‍♀️
         description: ''
-        percent: 60
-        icon: person-simple-walk
-      - name: Tennis
+        # percent: 60
+        # icon: person-simple-walk
+      - name: Tennis 🎾
         description: ''
-        percent: 100
-        icon: power
-      - name: Climbing
+        # percent: 100
+        # icon: power
+      - name: Climbing 🧗‍
         description: ''
-        percent: 80
-        icon: rocket-launch
+        # percent: 80
+        # icon: rocket-launch
+      - name: Skiing 🏂
+        description: ''
+        # percent: 80
+      - name: Movie 🎦
+        description: ''
+        # percent: 80
+      - name: Travel ✈
+        description: ''
+        # percent: 80
+      - name: Dancing 💃
+        description: ''
+        # percent: 80
 
 languages:
   - name: English
@@ -215,7 +234,7 @@ awards:
     # summary: |
     #   I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
   - title: Accredited Researcher
-    # url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
+    url: https://www.ons.gov.uk/aboutus/whatwedo/statistics/requestingstatistics/secureresearchservice/becomeanaccreditedresearcher
     date: '2025-05-05'
     awarder: Office for National Statistics
     # icon: edx

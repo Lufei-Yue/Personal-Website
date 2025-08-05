@@ -23,7 +23,7 @@ doi: ""
 summary: Standard 3D models created from UAV (drone) imagery are excellent for capturing large areas quickly, but they often suffer from significant limitations at ground level. Textures on building facades can be blurry, and complex structures like covered walkways or overhangs are often distorted or incomplete. This project aimed to solve this common industry problem by developing a method to enhance model accuracy and detail.
 
 tags:
-- Undergraduate Project
+- Undergraduate Thesis
 - 3D models
 - UAV
 
@@ -70,8 +70,11 @@ My methodology centered on unifying the two disparate datasets within a single c
 
 The results were a significant success. The fused model exhibited crisp, clear textures and complete, accurate geometry for complex ground-level features like walkways and building entrances—details that were previously distorted or blurry. This project demonstrates a practical and scalable workflow for creating more realistic and accurate digital twins for urban planning and architectural visualization without relying on expensive, specialized equipment.
 
-Drone modeling results:
+Drone modeling result:
 ![UAV](UAV.png)
+
+Final result:
+![UAV](featured.png)
 
 
 

@@ -47,7 +47,13 @@ sections:
       title: '🌏 My Passion'
       subtitle: ''
       text: |-
-        I am passionate about translating complex data into a positive, tangible impact. My journey began with using GIS to improve urban environments, such as making city streets safer and determining the location of critical infrastructure. This passion continues in my professional life, where I enjoy developing AI tools that automate processes and empower non-technical teams. Above all, I am dedicated to community building, as demonstrated by my leadership role at GISphere, where we provide access to knowledge and resources for thousands of students and professionals worldwide. Whether through code, a map or a community platform, my goal is to create tools that help people and solve meaningful problems. I believe the most exciting discoveries happen when we bridge disciplines, combining geographical insights with cutting-edge AI or merging technical precision with human-centred design. Every project is an opportunity to explore new possibilities and contribute to a more data-informed and connected world. 😃
+        I am passionate about translating complex data into a positive, tangible impact. My journey began with using GIS to improve urban environments, such as making city streets safer and determining the location of critical infrastructure. This passion continues in my professional life, where I enjoy developing AI tools that automate processes and empower non-technical teams. 
+
+        I believe the most exciting discoveries happen when we bridge disciplines, combining geographical insights with cutting-edge AI or merging technical precision with human-centred design. Every project is an opportunity to explore new possibilities and contribute to a more data-informed and connected world. 😃
+
+        Thank you for exploring my projects. If you'd like to see a more detailed of my roles and other information, please visit the **Experience** page in the menu.
+
+        Let's connect on LinkedIn: https://www.linkedin.com/in/lufeiyue/
     design:
       columns: '1'
   # - block: collection

@@ -31,6 +31,7 @@ tags:
 
 featured: true
 
+
 links:
 # - name: Custom Link
 #   url: http://example.org
@@ -55,15 +56,15 @@ links:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects:
-- internal-project
+# projects:
+# - internal-project
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-slides: example
+# slides: example
 ---
 This project aimed to solve a real-world problem for the Leeds-based charity, Learning Partnerships. They needed to pinpoint neighbourhoods with the highest concentration of young, disadvantaged adults to effectively deploy a new support initiative. My goal was to transform raw census data into an actionable, location-based strategy for them. 
 
