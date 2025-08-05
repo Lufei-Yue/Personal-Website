@@ -30,26 +30,38 @@ sections:
           size: cover
           position: center
           parallax: false
-  - block: markdown
-    content:
-      title: '📚 My Passion'
-      subtitle: ''
-      text: |-
-        I am passionate about Geographical Information Systems (GIS), spatial data analysis, and applying data-driven approaches to real-world problems. Let’s Connect! 😃
-    design:
-      columns: '1'
   - block: collection
     id: papers
     content:
-      title: Master Projects
+      title: Projects
       count: 0
       filters:
         folders:
-          - publication
+          - project
         featured_only: true
     design:
       view: article-grid
       columns: 3
+  - block: markdown
+    content:
+      title: '🌏 My Passion'
+      subtitle: ''
+      text: |-
+        I am passionate about translating complex data into a positive, tangible impact. My journey began with using GIS to improve urban environments, such as making city streets safer and determining the location of critical infrastructure. This passion continues in my professional life, where I enjoy developing AI tools that automate processes and empower non-technical teams. Above all, I am dedicated to community building, as demonstrated by my leadership role at GISphere, where we provide access to knowledge and resources for thousands of students and professionals worldwide. Whether through code, a map or a community platform, my goal is to create tools that help people and solve meaningful problems. I believe the most exciting discoveries happen when we bridge disciplines, combining geographical insights with cutting-edge AI or merging technical precision with human-centred design. Every project is an opportunity to explore new possibilities and contribute to a more data-informed and connected world. 😃
+    design:
+      columns: '1'
+  # - block: collection
+  #   id: papers
+  #   content:
+  #     title: Projects
+  #     count: 0
+  #     filters:
+  #       folders:
+  #         - project
+  #       featured_only: true
+  #   design:
+  #     view: article-grid
+  #     columns: 3
   # - block: collection
   #   id: papers
   #   content:

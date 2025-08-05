@@ -152,15 +152,31 @@ skills:
       - name: Python
         description: ''
         percent: 80
-        icon: code-bracket
-      - name: Data Science
+        icon: python
+      - name: R
         description: ''
         percent: 100
-        icon: chart-bar
+        icon: devicon/rstudio
       - name: SQL
         description: ''
         percent: 40
-        icon: circle-stack
+        icon: devicon/sqldeveloper
+      - name: Alteryx
+        description: ''
+        percent: 60
+        icon: arrow-left-circle
+      - name: ArcGIS Pro
+        description: ''
+        percent: 100
+        icon: globe-alt
+      - name: QGIS
+        description: ''
+        percent: 100
+        icon: magnifying-glass-circle
+      - name: SPSS
+        description: ''
+        percent: 100
+        icon: devicon/spss
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
@@ -169,21 +185,21 @@ skills:
         description: ''
         percent: 60
         icon: person-simple-walk
-      - name: Cats
+      - name: Tennis
         description: ''
         percent: 100
-        icon: cat
-      - name: Photography
+        icon: power
+      - name: Climbing
         description: ''
         percent: 80
-        icon: camera
+        icon: rocket-launch
 
 languages:
   - name: English
     percent: 100
   - name: Chinese
-    percent: 75
-  - name: Portuguese
+    percent: 100
+  - name: Japanese
     percent: 25
 
 # Awards.
@@ -191,31 +207,37 @@ languages:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
-    awarder: Coursera
-    icon: coursera
-    summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
-    awarder: edX
-    icon: edx
-    summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
-    icon: datacamp
-    summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+  - title: Alteryx Designer Core
+    url: https://www.credly.com/badges/13241f36-8b85-419c-b5a9-316ee25e392f/linked_in_profile
+    date: '2025-06-21'
+    awarder: Alteryx
+    # icon: coursera
+    # summary: |
+    #   I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
+  - title: Accredited Researcher
+    # url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
+    date: '2025-05-05'
+    awarder: Office for National Statistics
+    # icon: edx
+    # summary: |
+    #   Learned:
+    #   - Synthesize your own blockchain solutions
+    #   - Gain an in-depth understanding of the specific mechanics of Bitcoin
+    #   - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
+  - title: 'Databases and SQL for Data Science with Python'
+    url: https://www.coursera.org/account/accomplishments/verify/JNA0BW368K2O
+    # certificate_url: https://www.datacamp.com
+    date: '2025-05-10'
+    awarder: IBM
+    icon: Coursera
+    # summary: |
+    #   Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+  - title: 'Python for Data Science and AI'
+    url: https://www.credly.com/badges/b610bece-abdf-4653-ab41-6a0a92a03fa3/linked_in_profile
+    # certificate_url: https://www.datacamp.com
+    date: '2025-02-13'
+    awarder: IBM
+    icon: Coursera
 ---
 
 ## About Me

@@ -30,7 +30,7 @@ doi: ''
 # abstract: The Index of Multiple Deprivation (IMD) provides a comprehensive measure of deprivation across different regions in the UK. While the specific methodologies vary slightly between countries, IMD generally accounts for factors such as income, employment, education, health, crime, housing access, and environmental quality. This project focuses on London, exploring the relationship between IMD and education levels to better understand how deprivation may impact educational attainment across the city.
 
 # Summary. An optional shortened abstract.
-summary: The Index of Multiple Deprivation (IMD) provides a comprehensive measure of deprivation across different regions in the UK. While the specific methodologies vary slightly between countries, IMD generally accounts for factors such as income, employment, education, health, crime, housing access, and environmental quality. This project focuses on London, exploring the relationship between IMD and education levels to better understand how deprivation may impact educational attainment across the city.
+summary: This project aimed to investigate the relationship between socioeconomic deprivation and educational attainment across London. The central question was - Is there a measurable link between living in a deprived area and having lower educational qualifications, and what does this pattern look like geographically?
 
 tags:
   - Master Project
@@ -76,7 +76,8 @@ url_code: 'https://github.com/LufeiYue1/GEOG5990_Assignment'
 #   Otherwise, set `slides: ""`.
 # slides: example
 ---
-The Index of Multiple Deprivation (IMD) provides a comprehensive measure of deprivation across different regions in the UK. While the specific methodologies vary slightly between countries, IMD generally accounts for factors such as income, employment, education, health, crime, housing access, and environmental quality. This project focuses on London, exploring the relationship between IMD and education levels to better understand how deprivation may impact educational attainment across the city.
+In this project, I investigated the link between socioeconomic deprivation and educational attainment in London. Using Python libraries like Pandas and GeoPandas, I integrated Index of Multiple Deprivation (IMD) data, census statistics on qualifications, and LSOA boundary shapefiles to create a comprehensive dataset for analysis. My goal was to quantify this relationship statistically and visualize it geographically.
+My analysis followed a two-step process. An initial Spearman's rank correlation test across all education levels did not yield a statistically significant result. However, a deeper dive using a boxplot to compare deprivation with the percentage of residents having no qualifications revealed a clear trend: more deprived areas consistently have a higher proportion of people with no formal education. To visualize this spatially, I created a choropleth map, which showed a distinct concentration of high deprivation in inner and eastern London, contrasted with more affluent areas on the city's outskirts. This project highlights the importance of combining different analytical techniques to uncover nuanced patterns and provides a clear, data-driven map for understanding social inequality in London.
 
 <!-- 
 {{% callout note %}}
