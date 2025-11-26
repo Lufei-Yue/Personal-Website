@@ -1,5 +1,5 @@
 ---
-title: Master Projects
+title: 
 cms_exclude: true
 
 # View.

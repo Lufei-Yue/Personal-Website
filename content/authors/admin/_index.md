@@ -67,7 +67,11 @@ education:
     summary: |
       Grade: Merit
 
-      Advanced skills in spatial data analysis and visualization (ArcGIS, QGIS, Python, R), and statistical tools (SPSS, Excel)
+      •	Advanced skills in spatial data analysis and visualisation (ArcGIS, QGIS, Python, R), and statistical tools (SPSS, Excel).
+      
+      •	Dissertation (Distinction): How Effective are Low Traffic Neighbourhoods in Reducing Traffic Accidents? A City-Wide Difference-in-Differences Study in London.<br>
+      &nbsp;&nbsp;o	Quantified a 10% reduction in traffic accidents using Difference-in-Differences modelling on 500K+ STATS19 records, integrating complex geospatial data in Python to support city planning and transport safety decisions.
+
   # - area: MEng Artificial Intelligence
   #   institution: Massachusetts Institute of Technology
   #   date_start: 2016-01-01
@@ -97,12 +101,11 @@ education:
     summary: |
       Scholarship recipient for four consecutive years
 
-      Core courses
-      - Principles and Applications of Database
-      - Principles of Geospatial Analysis
-      - Visualization Principle of Geospatial Data
-      - Applications of GIS
-      - GIS Designing and Development
+      •	Focusing on spatial data analysis, remote sensing, cartography, and GIS-based spatial modelling for environmental and urban applications. <br>
+      
+      •	Dissertation: Reconstruction of Air-Ground Joint Realistic 3D Modelling<br>
+      &nbsp;&nbsp;o	Improve the accuracy of 3D model reconstruction by fusing drone images and mobile phone images.
+
 work:
   # - position: Director of Cloud Infrastructure
   #   company_name: GenCoin
@@ -126,30 +129,47 @@ work:
   #     - Migrated infrastructure to a new data center
   #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
   #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: ECommerce Assistant
-    company_name: Oxfam
-    company_url: ''
-    company_logo: ''
-    date_start: 2025-06-13
-    date_end: ''
-    summary: |2-
-      Drove sales and enhanced customer satisfaction by streamlining the end-to-end online retail process.
   - position: AI Solutions Engineer (Contractor)
     company_name: Deego Technology (Hong Kong) Limited
     company_url: ''
     company_logo: ''
-    date_start: 2025-03-14
-    date_end: 2025-05-13
+    date_start: 2025-03-01
+    date_end: 2025-05-31
     summary: |
-      Developed user-friendly AI workflows to automate content and SEO, driving significant gains in operational efficiency and campaign performance.
-  - position: Chief Operating Officer & Board Member
+      •	Supported global market expansion of Anker (top 1 mobile charging brand) by AI-driven solutions for Amazon e-commerce operations.<br>
+      •	Designed, monitored, and managed automation workflows on the Dify open-sourced platform to simplify internal processes and reduce staff workload.<br>
+      •	Created LLM modules that improved task transparency, reduced frustration, and enabled staff to complete reports 4× faster with 20% higher SEO campaign accuracy.
+
+  - position: Co-founder and Board Member
     company_name: GISphere
     company_url: ''
     company_logo: ''
     date_start: 2022-04-11
     date_end: ''
     summary: |
-      Grew a global non-profit community by developing data-driven content and essential resources that significantly boosted audience engagement and retention.
+      •	Led GISphere, an award-winning non-profit promoting GIS education worldwide, with 150 volunteers and thousands of members of GIS professionals and students. <br>
+      •	Built and maintained an open-access database of 480+ GIS programmes across 96 countries, and hosted 40+ webinars, to support information assess and education equity. <br>
+      •	Managed global partnerships, community engagement, fund raising, and operational strategy to support professional development initiatives.
+  - position: E-Commerce Support
+    company_name: Oxfam
+    company_url: ''
+    company_logo: ''
+    date_start: 2025-06-13
+    date_end: ''
+    summary: |2-
+      •	Researched product histories and created accurate, engaging listings for online shop.<br>
+      •	Analysed sales data to identify best-performing products and support revenue strategies.<br>
+      •	Managed order fulfilment and dispatch, ensuring efficiency and customer satisfaction.<br>
+      •	Streamlined tagging workflows, reducing processing time from donation to dispatch.
+  - position: Research Assistant
+    company_name: Geospatial Information Engineering Technology Centre, Tianjin
+    company_url: ''
+    company_logo: ''
+    date_start: 2021-06-30
+    date_end: 2022-01-30
+    summary: |2-
+      •	Integrated UAV-based tilted imagery and ground-based close-range photogrammetry to improve 3D model accuracy.<br>
+      •	Contributed to a 3D model of Danxia Mountain, improving digital preservation techniques. 
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`

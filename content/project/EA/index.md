@@ -28,7 +28,7 @@ tags:
 - EIA
 - Excel
 
-featured: true
+featured: false
 
 links:
 # - name: Custom Link

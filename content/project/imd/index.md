@@ -32,13 +32,14 @@ doi: ''
 # Summary. An optional shortened abstract.
 summary: This project aimed to investigate the relationship between socioeconomic deprivation and educational attainment across London. The central question was - Is there a measurable link between living in a deprived area and having lower educational qualifications, and what does this pattern look like geographically?
 
-tags:
-  - Master Project
-  - Visualisation
-  - Python
+# tags:
+#   - Master Project
+#   - Visualisation
+#   - Python
 
 # Display this page in the Featured widget?
-featured: true
+featured: false
+
 
 # Custom links (uncomment lines below)
 # links:

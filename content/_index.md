@@ -17,7 +17,7 @@ sections:
       # Show a call-to-action button under your biography? (optional)
       button:
         text: Download CV
-        url: uploads/Lufei Yue resume.pdf
+        url: uploads/Lufei Yue CV 2025.pdf
     design:
       css_class: dark
       background:
@@ -29,6 +29,8 @@ sections:
             brightness: 1.0
           size: cover
           position: center
+
+
           parallax: false
   - block: collection
     id: papers

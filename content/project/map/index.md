@@ -27,7 +27,7 @@ tags:
 - Spatial Analysis
 - ArcGIS
 
-featured: true
+featured: false
 
 links:
 # - name: Custom Link

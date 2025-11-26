@@ -22,10 +22,10 @@ doi: ""
 # Summary. An optional shortened abstract.
 summary: Standard 3D models created from UAV (drone) imagery are excellent for capturing large areas quickly, but they often suffer from significant limitations at ground level. Textures on building facades can be blurry, and complex structures like covered walkways or overhangs are often distorted or incomplete. This project aimed to solve this common industry problem by developing a method to enhance model accuracy and detail.
 
-tags:
-- Undergraduate Thesis
-- 3D models
-- UAV
+# tags:
+# - Undergraduate Thesis
+# - 3D models
+# - UAV
 
 featured: true
 
@@ -43,10 +43,10 @@ links:
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
-# image:
-#   caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/s9CC2SKySJM)'
-#   focal_point: ""
-#   preview_only: false
+image:
+  caption: ''
+  focal_point: ""
+  preview_only: true
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.
@@ -64,17 +64,49 @@ projects:
 slides: example
 ---
 
-This project addressed a common challenge in 3D modeling where models generated solely from UAV (drone) data lack sufficient ground-level detail and texture clarity. My goal was to develop a cost-effective method to fuse aerial imagery with high-resolution, ground-based smartphone images to produce a single, high-fidelity 3D model of the Tianjin Normal University Library.
+**🛠 Skills & Tools:** <kbd>ContextCapture</kbd> <kbd>Photogrammetry</kbd> <kbd>UAV/Drone Surveying</kbd> <kbd>3D Modelling</kbd> <kbd>Data Fusion</kbd>
 
-My methodology centered on unifying the two disparate datasets within a single coordinate system. I first created a detailed local model from the smartphone images, then used common tie points to perform an absolute orientation and similarity transformation on the UAV dataset. This precisely aligned the large-scale aerial model with the detailed ground model. By merging the two aligned datasets in ContextCapture, I was able to generate a final, integrated, model.
+---
 
-The results were a significant success. The fused model exhibited crisp, clear textures and complete, accurate geometry for complex ground-level features like walkways and building entrances—details that were previously distorted or blurry. This project demonstrates a practical and scalable workflow for creating more realistic and accurate digital twins for urban planning and architectural visualization without relying on expensive, specialized equipment.
+## The Ground-Level Gap
 
-Drone modeling result:
-![UAV](UAV.png)
+In the field of 3D urban modelling, drones are exceptional at capturing roof structures and large-scale topography. However, they have one major limitation: the 'blind angle'. 
 
-Final result:
-![UAV](featured.png)
+Models generated solely from aerial data often exhibit significant distortion at street level. Facades appear distorted and intricate details such as walkways and entrances lack texture clarity. My goal was to bridge this gap by developing a cost-effective workflow that fuses aerial imagery with high-resolution ground-based smartphone data to create a true digital twin.
+
+My goal was to produce a single, high-fidelity 3D model with crisp ground-level details, without relying on expensive, specialised LiDAR equipment.
+
+---
+
+## Methodology: Multi-Source Data Fusion
+
+My methodology focused on combining two different datasets — the "macro" view from the drone and the "micro" view from the smartphone — into a single coordinate system.
+
+1.  **Data acquisition**: I captured an overview of the library using a drone, whilst simultaneously capturing ground-level details (façades, stairs and pillars) using a standard smartphone camera.
+2.  **Local reconstruction**: I first processed the smartphone images to create a highly detailed local model.
+3.  **Coordinate unification**: This was the crucial technical step. I used common tie points to perform absolute orientation and similarity transformation. This precisely aligned the large-scale aerial model with the detailed ground coordinates.
+4.  **Integrated fusion**: Finally, I merged the aligned datasets in ContextCapture, creating a seamless mesh that retained the best features of both sources.
+
+---
+
+## Results: Visual Comparison
+
+The difference in quality is immediately apparent. The picture below illustrates the difference in geometry and texture quality between the traditional UAV-only approach and my fused workflow.
+
+| **Before: UAV Data Only** | **After: Multi-Source Fusion** |
+| :---: | :---: |
+| ![UAV Model Result](UAV.png) | ![Final Fused Result](after.png) |
+| *Note the distorted geometry at the entrance and the blurry textures on the ground.* | *Clear textures and accurate geometry for complex features like stairs and pillars.* |
+
+---
+
+## Impact & Conclusion
+
+The project successfully demonstrated that high-fidelity 3D modelling does not require a prohibitively large budget.
+
+* **Holistic accuracy**: the fused model exhibits complete geometry for complex ground-level features that were previously distorted.<br>
+* **Scalable workflow**: By demonstrating that smartphone data can be successfully integrated with aerial surveys, the project provides a practical solution for urban planning and architectural visualisation.
+* **Cost-effectiveness**: It significantly reduces the barrier to creating realistic digital twins, bypassing the need for expensive ground-based laser scanners.
 
 
 
